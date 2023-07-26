@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: rgb(255, 230, 239);
+  }
+}
+@media (max-width: 700px) {
+  body {
+    background-color: rgb(241, 216, 225);
+  }
+  img {
+    width: 50%;
+  }
+}
+.navbar {
+  background-color: rgb(143, 112, 135);
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 800px;
+}
+
+.about {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 0%;
+}
+
+.nleft {
+  background-image: url(multimedia/Foto\ para\ el\ About.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ncenter {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.items {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  border: 4px solid rgb(249, 123, 154);
+}
+
+.imgs {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  border: 5px solid rgb(252, 141, 169);
+}
+
+.item1 {
+  background-image: url(multimedia/clients/oldi/1.1.jpg);
+}
+
+.item2 {
+  background-image: url(multimedia/clients/oldi/2.jpg);
+}
+
+.item3 {
+  background-image: url(multimedia/clients/oldi/6.jpg);
+}
+
+.item4 {
+  background-image: url(multimedia/clients/oldi/DSC00039.jpg);
+}
+
+.item5 {
+  background-image: url(multimedia/clients/dizoocco/129.jpg);
+}
+
+.item6 {
+  background-image: url(multimedia/clients/dizoocco/Naif\ 448.jpg);
+}
+
+.item7 {
+  background-image: url(multimedia/clients/dizoocco/Naif\ 585.jpg);
+}
+
+.item8 {
+  background-image: url(multimedia/clients/dizoocco/Naif\ 786.jpg);
+}
+
+.item9 {
+  background-image: url(multimedia/clients/vakiano/2.jpg);
+}
+
+.item10 {
+  background-image: url(multimedia/clients/vakiano/4.jpg);
+}
+
+.item11 {
+  background-image: url(multimedia/clients/vakiano/5.jpg);
+}
+
+.item12 {
+  background-image: url(multimedia/clients/vakiano/6.jpg);
+}
+
+.img1 {
+  background-image: url(multimedia/editorial/e1.jpg);
+}
+
+.img2 {
+  background-image: url(multimedia/editorial/tumblr_a97735d5e360586a740d828267a1e508_9ab0957c_1280.jpeg);
+}
+
+.img3 {
+  background-image: url(multimedia/editorial/e3.jpg);
+}
+
+.img4 {
+  background-image: url(multimedia/editorial/a35644155047949.634d9a2d2a176.jpg);
+}
+
+.img5 {
+  background-image: url(multimedia/editorial/e5.jpg);
+}
+
+.img6 {
+  background-image: url(multimedia/editorial/e2.jpg);
+}
+
+.img7 {
+  background-image: url(multimedia/editorial/e6.jpg);
+}
+
+.img8 {
+  background-image: url(multimedia/editorial/e7.jpg);
+}
+
+.text-center {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: block;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
